@@ -1,0 +1,52 @@
+[
+  {
+    "type": "mysql",
+    "host": "145.239.255.230",
+    "port": 3306,
+    "username": "api_user",
+    "password": "diennk_ay4DZabZhe5hr2MZe89g7rrAfTGEwANCYTLv6Yyn4AGb27ke6XEhKarcnqjEqnmk",
+    "database": "test",
+    "synchronize": true,
+    "logging": true,
+    "entities": ["src/**/*.entity.ts"],
+    "migrations": ["src/migration/**/*.ts"],
+    "subscribers": ["src/subscriber/**/*.ts"],
+    "timezone":"0",
+    "acquireTimeout": 20000,
+    "connectTimeout": 1500,
+    "cli": {
+      "entitiesDir": "src",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+    },
+    "extra": {
+      "charset": "utf8mb4_unicode_ci",
+      "connectionLimit": 50
+    }
+  },
+  {
+    "type": "mysql",
+    "host": "145.239.255.230",
+    "port": 3306,
+    "username": "api_user",
+    "password": "diennk_ay4DZabZhe5hr2MZe89g7rrAfTGEwANCYTLv6Yyn4AGb27ke6XEhKarcnqjEqnmk",
+    "database": "test",
+    "synchronize": true,
+    "logging": false,
+    "entities": ["src/**/*.entity.ts"],
+    "migrations": ["src/migration/**/*.ts"],
+    "subscribers": ["src/subscriber/**/*.ts"],
+    "timezone":"0",
+    "acquireTimeout": 20000,
+    "connectTimeout": 1500,
+    "cli": {
+      "entitiesDir": "src",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+    },
+    "extra": {
+      "charset": "utf8mb4_unicode_ci",
+      "connectionLimit": 50
+    }
+  }
+]
